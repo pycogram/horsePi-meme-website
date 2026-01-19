@@ -90,7 +90,7 @@ const Footer = () => {
             <h5 className="font-display font-bold text-lg mb-4">Contract Address</h5>
             <button
               onClick={copyToClipboard}
-              className="w-full flex items-center gap-2 p-3 rounded-xl bg-background/10 hover:bg-background/20 transition-colors text-left"
+              className="w-[95%] sm:w-full flex items-center gap-2 p-3 rounded-xl bg-background/10 hover:bg-background/20 transition-colors text-left"
             >
               <code className="flex-1 text-xs font-mono truncate opacity-80">
                 {contractAddress}
