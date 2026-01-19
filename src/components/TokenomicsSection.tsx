@@ -117,7 +117,7 @@ const TokenomicsSection = () => {
               </div>
 
               {/* Distribution visual */}
-              <div className="mt-8 grid grid-cols-3 gap-4">
+              <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="text-center p-4 bg-background/50 rounded-2xl border border-border">
                   <div className="w-16 h-16 mx-auto mb-3 rounded-full bg-success/20 flex items-center justify-center">
                     <span className="text-2xl">🔒</span>
