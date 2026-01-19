@@ -90,7 +90,7 @@ const HowToBuySection = () => {
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {steps.map((step, index) => (
               <ScrollReveal key={index} delay={index * 0.1}>
-                <div className="group place-self-center w-[95%] sm:w-[90%] md:w-auto relative bg-background rounded-3xl p-6 border-2 border-border hover:border-primary/50 transition-all hover:shadow-xl h-full">
+                <div className="group place-self-center w-[85%] sm:w-[90%] md:w-auto relative bg-background rounded-3xl p-6 border-2 border-border hover:border-primary/50 transition-all hover:shadow-xl h-full">
                   {/* Step number */}
                   <div className="absolute -top-3 -left-3 w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-display font-bold text-lg shadow-lg">
                     {step.number}

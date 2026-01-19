@@ -54,10 +54,10 @@ const HeroSection = () => {
         ))}
       </div>
 
-      <div className="container mx-auto px-4 py-12 lg:py-20 relative z-20">
+      <div className="container place-items-center mx-auto px-4 py-12 lg:py-20 relative z-20">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Content */}
-          <div className="text-center lg:text-left animate-slide-up">
+          <div className="text-center w-[80%] sm:w-auto place-self-center sm:place-self-auto lg:text-left animate-slide-up">
             <div className="inline-flex items-center gap-2 bg-bnb/20 text-foreground px-4 py-2 rounded-full mb-6 border border-bnb/30">
               <span className="w-2 h-2 rounded-full bg-success animate-pulse" />
               <span className="font-semibold text-sm">Live on BNB Chain</span>
