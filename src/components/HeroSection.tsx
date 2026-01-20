@@ -84,12 +84,12 @@ const HeroSection = () => {
                 </code>
                 <button
                   onClick={copyToClipboard}
-                  className="p-2 rounded-xl bg-primary/20 hover:bg-primary/30 transition-colors flex-shrink-0"
+                  className="p-2 rounded-xl bg-primary/20 border-gray-300 border hover:bg-primary/30 transition-colors flex-shrink-0"
                 >
                   {copied ? (
                     <Check className="w-4 h-4 text-success" />
                   ) : (
-                    <Copy className="w-4 h-4 text-primary" />
+                    <Copy className="w-4 h-4 text-dark" />
                   )}
                 </button>
               </div>
