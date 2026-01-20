@@ -118,10 +118,10 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm opacity-80">
           <p className="flex items-center gap-2">
-            Built with <Heart className="w-4 h-4 text-destructive" /> by the HorsePi Community
+            Built with for HorsePi Community
           </p>
           <div className="flex items-center gap-4">
-            <span>© 2024 HorsePi</span>
+            <span>© 2026 HorsePi</span>
             <span>•</span>
             <span className="flex items-center gap-1">
               <span className="text-lg">⛓️</span>

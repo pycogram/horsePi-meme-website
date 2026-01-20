@@ -55,8 +55,6 @@ const TokenomicsSection = () => {
             {/* Blueprint Card */}
             <div className="blueprint-card relative overflow-hidden rounded-3xl p-6 sm:p-8">
               {/* Corner decorations */}
-              <div className="absolute top-4 left-4 text-accent text-2xl">📐</div>
-              <div className="absolute top-4 right-4 text-accent text-2xl">📏</div>
 
               <h3 className="font-display text-2xl font-bold text-center mb-8 text-foreground">
                 Construction Specifications
