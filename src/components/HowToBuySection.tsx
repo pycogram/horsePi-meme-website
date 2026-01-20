@@ -7,7 +7,7 @@ const steps = [
     number: "01",
     title: "Get a Web3 Wallet",
     description: "Download MetaMask or Trust Wallet from your app store or browser extensions.",
-    icon: "👛",
+    icon: "📱",
     link: {
       text: "Get MetaMask",
       url: "https://metamask.io/download/",
